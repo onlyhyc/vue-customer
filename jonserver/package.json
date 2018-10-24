@@ -1,0 +1,16 @@
+{
+  "name": "jonserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "jsonserver": "json-server --watch db.json",
+    "jsonremote":"json-server http://jsonplaceholder.typicode.com/db"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.14.0"
+  }
+}
